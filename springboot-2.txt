@@ -1,0 +1,3 @@
+                   使用Springboot-jpa做增删改查
+1.数据库报错:java.sql.SQLException: Access denied for user ''@'localhost' (using password: YES)
+答:我以为是数据库密码错了,反复对了几遍密码都是对的，原来是我原先使用的name: root,应该是username: root
